@@ -49,6 +49,8 @@ scripts/build.sh --install
 
 History lives in `~/Library/Application Support/Cliptap`.
 
+The website (cliptap.app) lives in [`site/`](site/).
+
 ## License
 
 [MIT](LICENSE)

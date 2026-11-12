@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="824" height="824" fill="none" viewBox="100 100 824 824">
+  <defs>
+    <linearGradient id="paint0_linear_13615_85532" x1="3" x2="89.16" y1="2.648" y2="47.63" gradientTransform="scale(12.8)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#03425F" offset="0"/>
+      <stop stop-color="#03666F" offset=".3802"/>
+      <stop stop-color="#048F6F" offset=".6458"/>
+      <stop stop-color="#09B579" offset=".8594"/>
+      <stop stop-color="#0DC37D" offset="1"/>
+    </linearGradient>
+    <radialGradient id="paint1_radial_13615_85532" cx="0" cy="0" r="1" gradientTransform="matrix(1.425e-14 232.7 -302.5 1.852e-14 516.3 591.7)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#023F42" offset="0"/>
+      <stop stop-color="#03585A" offset=".5565"/>
+      <stop stop-color="#066367" stop-opacity="0" offset="1"/>
+    </radialGradient>
+    <linearGradient id="paint2_linear_13615_85532" x1="29.93" x2="37.85" y1="21.8" y2="50.04" gradientTransform="scale(12.8)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0AB8B0" offset="0"/>
+      <stop stop-color="#05A9A4" offset=".5491"/>
+      <stop stop-color="#028A88" offset="1"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear_13615_85532" x1="37.66" x2="44.73" y1="24.89" y2="54.02" gradientTransform="scale(12.8)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#81EBD1" offset="0"/>
+      <stop stop-color="#77E0C8" offset=".4923"/>
+      <stop stop-color="#54B8A6" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(100 100) scale(0.8046875)">
+  <rect x="0" y="0" width="1024" height="1024" rx="230" fill="url(#paint0_linear_13615_85532)"/>
+  <ellipse cx="516.3" cy="591.7" rx="302.5" ry="232.7" fill="url(#paint1_radial_13615_85532)"/>
+  <path d="m256.6 379c-6.656-29.44-1.408-57.98 40.96-69.63 68.99-19.58 189.6-50.56 238-61.7 32.77-7.68 54.78 3.328 63.49 33.54 18.82 67.71 53.25 221.2 68.61 301.8 6.528 34.94-8.064 66.69-43.52 75.9-61.31 16.13-186.5 18.82-255 12.8-30.59-1.152-44.67-18.18-51.58-46.21-17.79-76.54-47.23-189.8-60.93-246.5z" fill="url(#paint2_linear_13615_85532)"/>
+  <path d="m324.7 410.2c-5.504-36.99 13.44-62.98 54.27-70.4 73.47-13.7 180.7-32.38 230-40.19 38.02-6.016 62.21 12.03 66.82 50.3 9.984 83.46 26.24 231.8 30.59 315.9 1.92 33.28-15.36 50.69-56.06 51.84-72.45 2.304-191.5-0.64-245.5-9.856-26.24-3.328-39.68-20.35-43.65-49.66-10.24-82.69-28.03-190-36.48-247.9z" fill="url(#paint3_linear_13615_85532)"/>
+  <path d="m389.4 431.7c0-37.38 24.7-61.31 62.21-61.31h236.4c35.33 0 59.65 23.55 59.65 59.39 0 75.01-0.64 194.9-0.64 256.3 0 36.99-26.24 60.54-59.78 60.54-75.39-0.256-181.2-0.256-239.6 0.256-35.07 0.128-58.37-26.11-58.37-59.78 0-77.7 0.128-181.1 0.128-255.4z" fill="#fff" fill-opacity=".99"/>
+  <rect x="447.4" y="470.2" width="241.7" height="25.53" rx="12.76" fill="#97A1AE"/>
+  <rect x="447.4" y="531.2" width="203.4" height="25.53" rx="12.76" fill="#97A1AE"/>
+  <rect x="447.4" y="594.4" width="221.8" height="25.53" rx="12.76" fill="#97A1AE"/>
+  <circle cx="806.3" cy="194.5" r="79.74" stroke="#99DCCB" stroke-width="11.84"/>
+  <circle cx="806.3" cy="194.5" r="47.91" stroke="#C9F0E7" stroke-width="11.84"/>
+  <circle cx="806.7" cy="194.7" r="22.89" fill="#fff"/>
+</g>
+</svg>
