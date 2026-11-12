@@ -620,18 +620,35 @@ kbd {
 
 .footer {
   margin-top: 120px;
-  border-top: 1px solid var(--border);
 }
 
 .footer-inner {
+  --footer-gutter: 24px;
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 8px 24px;
   max-width: 860px;
   margin-inline: auto;
-  padding: 24px 24px calc(40px + env(safe-area-inset-bottom));
+  padding: 24px var(--footer-gutter) calc(40px + env(safe-area-inset-bottom));
   font-size: var(--text-xs);
   color: var(--fg-3);
+}
+
+/* Dashed rule that spans the content width only, not the whole page. */
+.footer-inner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: var(--footer-gutter);
+  right: var(--footer-gutter);
+  height: 1px;
+  background: repeating-linear-gradient(to right, var(--border) 0 4px, transparent 4px 9px);
+  pointer-events: none;
+}
+
+.footer-credit {
+  margin-left: auto;
 }
 
 .footer a {
@@ -639,7 +656,7 @@ kbd {
   transition: color 150ms ease-out;
 }
 
-.footer span a {
+.footer-credit a {
   color: var(--fg-2);
 }
 
@@ -672,7 +689,11 @@ kbd {
     margin-top: 80px;
   }
   .footer-inner {
-    padding-inline: 16px;
+    --footer-gutter: 16px;
+  }
+  .footer-credit {
+    margin-left: 0;
+    flex-basis: 100%;
   }
 }
 

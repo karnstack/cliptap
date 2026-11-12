@@ -100,8 +100,8 @@ function Home() {
         <div className="footer-inner">
           <a href={`${GITHUB_URL}/blob/main/LICENSE`}>MIT License</a>
           <a href={GITHUB_URL}>GitHub</a>
-          <span>
-            Made by <a href="https://github.com/karnstack">Karn</a>
+          <span className="footer-credit">
+            Made by <a href="https://x.com/gyankarn">Karn</a> and AI agents
           </span>
         </div>
       </footer>
