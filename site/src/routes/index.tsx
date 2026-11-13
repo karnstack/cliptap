@@ -48,6 +48,10 @@ function Home() {
             </a>
           </div>
           <p className="meta">Free · Open source · macOS 14+</p>
+          <p className="meta meta-note">
+            Not notarized by Apple yet. On first open, go to System Settings → Privacy &amp; Security
+            and click <span className="nowrap">Open Anyway</span>.
+          </p>
         </header>
 
         <figure className="stage">

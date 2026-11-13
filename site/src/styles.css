@@ -215,6 +215,16 @@ h1 {
   color: var(--fg-3);
 }
 
+.meta-note {
+  margin-top: 6px;
+  max-width: 44ch;
+  text-wrap: pretty;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
 @media (hover: hover) {
   .button:hover {
     background: var(--accent-hover);

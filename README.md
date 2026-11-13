@@ -22,8 +22,12 @@
 
 1. Download `Cliptap.zip` from [Releases](https://github.com/karnstack/cliptap/releases/latest).
 2. Move `Cliptap.app` to `/Applications` and open it.
-3. To use the double <kbd>⌘</kbd> shortcut, allow Cliptap in
+3. Cliptap is not notarized by Apple yet, so macOS blocks the first open.
+   Go to **System Settings → Privacy & Security** and click **Open Anyway**.
+   Or run `xattr -dr com.apple.quarantine /Applications/Cliptap.app`.
+4. To use the double <kbd>⌘</kbd> shortcut, allow Cliptap in
    **System Settings → Privacy & Security → Accessibility**.
+   After an update, you may need to turn it off and on again there.
 
 Updates install from inside the app.
 
